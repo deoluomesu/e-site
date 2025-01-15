@@ -56,7 +56,7 @@ mongod
   ```javascript
   const uri = "mongodb://localhost:27017/<database>";
   ```
-  - Replace <database> with your desired database name. In this case were using "e-site"
+  - Replace <database> with your desired database name. In this case were using "mongodb-container"
 
         
 
