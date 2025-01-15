@@ -34,3 +34,29 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## For the MongoDB
+MongoDB Local Installation on Windows
+
+If you prefer a local database, here’s the simplest setup:
+
+  - Install MongoDB:
+      Download and install MongoDB Community Server from here.
+
+  - Run MongoDB Server:
+      Open Command Prompt and run:
+```bash 
+mongod
+```
+- This starts MongoDB on port 27017.
+
+  Connect Your Code:
+
+    In your project, use the connection string:
+  ```javascript
+  const uri = "mongodb://localhost:27017/<database>";
+  ```
+  - Replace <database> with your desired database name. In this case were using "e-site"
+
+        
+
